@@ -1,79 +1,77 @@
-Le Guide – Multilingual Cross-Cultural Business Chatbot
-🌍 Sophisticated Solutions for Global Success 🌍
-Le Guide is an advanced multilingual AI assistant built for Maison de Culture to support cross-cultural business expansion. It offers strategic guidance for companies operating between the United States and Europe, combining expert regulatory insights, cultural intelligence, and intelligent multilingual communication.
 
-✨ Features
-🗣️ Multilingual Support
-English – International business communication
+# Le Guide – Multilingual Cross-Cultural Business Chatbot
 
-Français – French business etiquette and regulatory guidance
+🌍 **Sophisticated Solutions for Global Success** 🌍
+**Le Guide** is an advanced multilingual AI assistant built for **Maison de Culture** to support cross-cultural business expansion. It offers strategic guidance for companies operating between the United States and Europe, combining expert regulatory insights, cultural intelligence, and intelligent multilingual communication.
 
-Română – Romanian and Moldovan market entry and legal context
+---
 
-🎯 Core Capabilities
-Business Compliance – Regulatory expertise for US, France, Romania, and Moldova
+## ✨ Features
 
-Cultural Intelligence – Etiquette, protocols, and communication norms
+### 🗣️ Multilingual Support
 
-Market Entry Consulting – Strategic expansion support for SMBs
+* **English** – International business communication
+* **Français** – French business etiquette and regulatory guidance
+* **Română** – Romanian and Moldovan market entry and legal context
 
-Language Training – Business-focused language improvement programs
+### 🎯 Core Capabilities
 
-Live Web Search – Access up-to-date legal and market information
+* **Business Compliance** – Regulatory expertise for US, France, Romania, and Moldova
+* **Cultural Intelligence** – Etiquette, protocols, and communication norms
+* **Market Entry Consulting** – Strategic expansion support for SMBs
+* **Language Training** – Business-focused language improvement programs
+* **Live Web Search** – Access up-to-date legal and market information
+* **Maison de Culture Website Integration** – Service details and consulting access
 
-Maison de Culture Website Integration – Service details and consulting access
+---
 
-🚀 Advanced Capabilities
-Voice Input – Supports speech-to-text in all supported languages
+## 🚀 Advanced Capabilities
 
-Quick Actions – One-click access to common business questions
+* **Voice Input** – Supports speech-to-text in all supported languages
+* **Quick Actions** – One-click access to common business questions
+* **Responsive UI** – Optimized for mobile, tablet, and desktop use
+* **Real-time Chat** – Fast and dynamic conversations with AI typing indicators
+* **Context Awareness** – Retains conversation history for coherent dialogue
 
-Responsive UI – Optimized for mobile, tablet, and desktop use
+---
 
-Real-time Chat – Fast and dynamic conversations with AI typing indicators
+## 🛠️ Technology Stack
 
-Context Awareness – Retains conversation history for coherent dialogue
+* **Frontend**: Next.js 14, React 18, TypeScript
+* **Styling**: Tailwind CSS with custom Maison de Culture theme
+* **Animations**: Framer Motion for fluid transitions
+* **Internationalization**: React i18next with auto language detection
+* **AI Integration**: OpenAI GPT models for intelligent dialogue
+* **Icons**: Lucide React for modern iconography
+* **Date Handling**: `date-fns` for timestamps and formatting
 
-🛠️ Technology Stack
-Frontend: Next.js 14, React 18, TypeScript
+---
 
-Styling: Tailwind CSS with custom Maison de Culture theme
+## 🏁 Quick Start
 
-Animations: Framer Motion for fluid transitions
+### Prerequisites
 
-Internationalization: React i18next with auto language detection
+* Node.js 18+
+* npm or yarn
+* OpenAI API Key
 
-AI Integration: OpenAI GPT models for intelligent dialogue
+### Installation
 
-Icons: Lucide React for modern iconography
-
-Date Handling: date-fns for timestamps and formatting
-
-🏁 Quick Start
-Prerequisites
-Node.js 18+
-
-npm or yarn
-
-OpenAI API Key
-
-Installation
-bash
-Copy
-Edit
+```bash
 git clone <repository-url>
 cd le-guide-chatbot
 npm install
-Environment Setup
-bash
-Copy
-Edit
-cp env.example .env.local
-Edit .env.local with your keys:
+```
 
-env
-Copy
-Edit
+### Environment Setup
+
+```bash
+cp env.example .env.local
+```
+
+Edit `.env.local` with your keys:
+
+```env
 # OpenAI API Configuration
 OPENAI_API_KEY=your_openai_api_key_here
 NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
@@ -88,61 +86,65 @@ WEBSITE_SCRAPER_API_KEY=your_scraper_api_key_here
 # Rate Limiting
 UPSTASH_REDIS_REST_URL=your_redis_url_here
 UPSTASH_REDIS_REST_TOKEN=your_redis_token_here
-Run the Development Server
-bash
-Copy
-Edit
+```
+
+### Run the Development Server
+
+```bash
 npm run dev
-Access at: http://localhost:3000
+```
 
-🎨 Brand Identity
-Le Guide aligns with Maison de Culture’s brand principles of elegance, trust, and professionalism.
+Access at: [http://localhost:3000](http://localhost:3000)
 
-Color Palette
-Maison Gold #D4AF37 – Premium and elegant
+---
 
-Maison Navy #1e3a8a – Trusted and confident
+## 🎨 Brand Identity
 
-Maison Cream #fefdfb – Sophisticated clarity
+**Le Guide** aligns with Maison de Culture’s brand principles of elegance, trust, and professionalism.
 
-Maison Charcoal #374151 – Modern and authoritative
+### Color Palette
 
-Typography
-Headings: Playfair Display – Elegant serif
+* **Maison Gold** `#D4AF37` – Premium and elegant
+* **Maison Navy** `#1e3a8a` – Trusted and confident
+* **Maison Cream** `#fefdfb` – Sophisticated clarity
+* **Maison Charcoal** `#374151` – Modern and authoritative
 
-Body Text: Inter – Clean and modern sans-serif
+### Typography
 
-💼 Business Context
-Target Markets
-US → Europe: SMBs entering France, Romania, Moldova
+* **Headings**: *Playfair Display* – Elegant serif
+* **Body Text**: *Inter* – Clean and modern sans-serif
 
-Europe → US: EU companies expanding into the US, with an Arizona focus
+---
 
-Services Integrated
-Language Training – $400 per client, 8-week program
+## 💼 Business Context
 
-Cultural Workshops – $25 per participant
+### Target Markets
 
-Market Entry Consulting – $800 per client
+* **US → Europe**: SMBs entering France, Romania, Moldova
+* **Europe → US**: EU companies expanding into the US, with an Arizona focus
 
-LLC Formation Support – For European companies expanding to the US
+### Services Integrated
 
-Industries Served
-Technology
+* **Language Training** – \$400 per client, 8-week program
+* **Cultural Workshops** – \$25 per participant
+* **Market Entry Consulting** – \$800 per client
+* **LLC Formation Support** – For European companies expanding to the US
 
-Healthcare
+### Industries Served
 
-Legal and Professional Services
+* Technology
+* Healthcare
+* Legal and Professional Services
+* Financial Services
+* Manufacturing
 
-Financial Services
+---
 
-Manufacturing
+## 🔧 Development
 
-🔧 Development
-Project Structure
-vbnet
-Copy
-Edit
+### Project Structure
+
+```
 le-guide-chatbot/
 ├── app/                 
 │   ├── api/              
@@ -159,126 +161,132 @@ le-guide-chatbot/
 │   └── i18n.ts          
 ├── types/               
 └── public/              
-Available Scripts
-bash
-Copy
-Edit
+```
+
+### Available Scripts
+
+```bash
 npm run dev        # Start development server
 npm run build      # Build for production
 npm run start      # Start production server
 npm run lint       # Run ESLint
 npm run type-check # TypeScript validation
-🌐 Internationalization
-Le Guide provides full language detection and culturally appropriate communication.
+```
 
-Language Support
-English (en) – US business standards
+---
 
-French (fr) – French legal and cultural guidance
+## 🌐 Internationalization
 
-Romanian (ro) – Romania and Moldova-focused support
+**Le Guide** provides full language detection and culturally appropriate communication.
 
-Features
-Automatic browser-based language detection
+### Language Support
 
-Persistent language choice using localStorage
+* **English (en)** – US business standards
+* **French (fr)** – French legal and cultural guidance
+* **Romanian (ro)** – Romania and Moldova-focused support
 
-Voice input matched to selected language
+### Features
 
-Cultural sensitivity in examples and advice
+* Automatic browser-based language detection
+* Persistent language choice using localStorage
+* Voice input matched to selected language
+* Cultural sensitivity in examples and advice
 
-🔒 Security & Privacy
-Environment-based API Key Storage – No credentials exposed in frontend code
+---
 
-Input Validation – Prevents malformed requests
+## 🔒 Security & Privacy
 
-Rate Limiting – Prevents abuse and protects services
+* **Environment-based API Key Storage** – No credentials exposed in frontend code
+* **Input Validation** – Prevents malformed requests
+* **Rate Limiting** – Prevents abuse and protects services
+* **No Persistent Storage** – Conversations are not saved
+* **HTTPS Enforcement** – All data exchanges are encrypted
 
-No Persistent Storage – Conversations are not saved
+---
 
-HTTPS Enforcement – All data exchanges are encrypted
+## 📱 Mobile Optimization
 
-📱 Mobile Optimization
-Fully responsive layout
+* Fully responsive layout
+* Touch-friendly interactions
+* Optimized for low-bandwidth environments
+* Graceful fallback for older browsers and JS-disabled scenarios
 
-Touch-friendly interactions
+---
 
-Optimized for low-bandwidth environments
+## 🤖 AI Capabilities
 
-Graceful fallback for older browsers and JS-disabled scenarios
+### Regulatory Compliance
 
-🤖 AI Capabilities
-Regulatory Compliance
-Business registration procedures
+* Business registration procedures
+* Tax regulations
+* Employment and labor laws
+* Industry-specific rules
 
-Tax regulations
+### Cultural Intelligence
 
-Employment and labor laws
+* Business etiquette by country
+* Meeting behavior and time management
+* Negotiation expectations and relationship building
 
-Industry-specific rules
+### Market Entry Strategy
 
-Cultural Intelligence
-Business etiquette by country
+* Competitor and industry research
+* Localization planning
+* Partner and vendor insights
 
-Meeting behavior and time management
+### Language Training
 
-Negotiation expectations and relationship building
+* Business terminology
+* Sector-specific vocabulary
+* Formal communication and tone
+* Language in cultural context
 
-Market Entry Strategy
-Competitor and industry research
+---
 
-Localization planning
+## 📊 Analytics & Monitoring
 
-Partner and vendor insights
+* **Response Time Monitoring**
+* **Most Frequently Used Languages**
+* **Common Query Analysis**
+* **AI Error and Timeout Reporting**
 
-Language Training
-Business terminology
+---
 
-Sector-specific vocabulary
+## 🚀 Deployment
 
-Formal communication and tone
+### Production Build
 
-Language in cultural context
-
-📊 Analytics & Monitoring
-Response Time Monitoring
-
-Most Frequently Used Languages
-
-Common Query Analysis
-
-AI Error and Timeout Reporting
-
-🚀 Deployment
-Production Build
-bash
-Copy
-Edit
+```bash
 npm run build
+```
+
 Deploy with your preferred platform:
 
-Recommended Platforms
-Vercel – Best fit for Next.js
+### Recommended Platforms
 
-Netlify – Easy CI/CD pipeline
+* **Vercel** – Best fit for Next.js
+* **Netlify** – Easy CI/CD pipeline
+* **AWS Amplify** – For full-stack hosting
+* **DigitalOcean** – Low-cost custom VPS
 
-AWS Amplify – For full-stack hosting
+---
 
-DigitalOcean – Low-cost custom VPS
+## 📞 Support & Contact
 
-📞 Support & Contact
-For help or consulting inquiries, contact Maison de Culture:
+For help or consulting inquiries, contact **Maison de Culture**:
 
-Website: maisondeculture.com
+* **Website**: [maisondeculture.com](https://maisondeculture.com)
+* **Email**: [contact@maisondeculture.com](mailto:contact@maisondeculture.com)
+* **Business Inquiries**: Request services or collaboration proposals
 
-Email: contact@maisondeculture.com
+---
 
-Business Inquiries: Request services or collaboration proposals
+## 📄 License
 
-📄 License
 This software is proprietary and owned by Maison de Culture.
 All rights reserved. For internal or commercial use only.
 
-Maison de Culture
-Empowering Businesses with Sophisticated Solutions 
+---
 
+**Maison de Culture**
+*Empowering Businesses with Sophisticated Solutions*
