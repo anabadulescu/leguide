@@ -1,271 +1,284 @@
-# Le Guide - Multilingual Cross-Cultural Business Chatbot
+Le Guide – Multilingual Cross-Cultural Business Chatbot
+🌍 Sophisticated Solutions for Global Success 🌍
+Le Guide is an advanced multilingual AI assistant built for Maison de Culture to support cross-cultural business expansion. It offers strategic guidance for companies operating between the United States and Europe, combining expert regulatory insights, cultural intelligence, and intelligent multilingual communication.
 
-🌍 **Sophisticated Solutions for Global Success** 🌍
+✨ Features
+🗣️ Multilingual Support
+English – International business communication
 
-Le Guide is an advanced multilingual AI assistant designed specifically for Maison de Culture's cross-cultural business consulting services. It provides expert guidance for US-European market expansion, compliance insights, and cultural intelligence.
+Français – French business etiquette and regulatory guidance
 
-## ✨ Features
+Română – Romanian and Moldovan market entry and legal context
 
-### 🗣️ Multilingual Support
-- **English** - International business communication
-- **Français** - French market expertise and cultural insights
-- **Română** - Romanian business laws and market entry guidance
+🎯 Core Capabilities
+Business Compliance – Regulatory expertise for US, France, Romania, and Moldova
 
-### 🎯 Core Capabilities
-- **Business Compliance** - Regulatory guidance for France, Romania, Moldova, and US markets
-- **Cultural Intelligence** - Business etiquette and cross-cultural communication
-- **Market Entry Consulting** - Comprehensive expansion strategies
-- **Language Training** - Business-focused language learning programs
-- **Real-time Web Search** - Current regulations and market information
-- **Website Integration** - Maison de Culture service information
+Cultural Intelligence – Etiquette, protocols, and communication norms
 
-### 🚀 Advanced Features
-- **Voice Input** - Speech-to-text in multiple languages
-- **Quick Actions** - Predefined queries for common business questions
-- **Responsive Design** - Beautiful UI optimized for all devices
-- **Real-time Chat** - Instant responses with typing indicators
-- **Context Awareness** - Remembers conversation history for better assistance
+Market Entry Consulting – Strategic expansion support for SMBs
 
-## 🛠️ Tech Stack
+Language Training – Business-focused language improvement programs
 
-- **Frontend**: Next.js 14, React 18, TypeScript
-- **Styling**: Tailwind CSS with custom Maison de Culture theme
-- **Animations**: Framer Motion for smooth interactions
-- **Internationalization**: React i18next with language detection
-- **AI Integration**: OpenAI GPT models for intelligent responses
-- **Icons**: Lucide React for modern iconography
-- **Date Handling**: date-fns for timestamp formatting
+Live Web Search – Access up-to-date legal and market information
 
-## 🏁 Quick Start
+Maison de Culture Website Integration – Service details and consulting access
 
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-- OpenAI API key
+🚀 Advanced Capabilities
+Voice Input – Supports speech-to-text in all supported languages
 
-### Installation
+Quick Actions – One-click access to common business questions
 
-1. **Clone and install dependencies**
-   ```bash
-   git clone <repository-url>
-   cd le-guide-chatbot
-   npm install
-   ```
+Responsive UI – Optimized for mobile, tablet, and desktop use
 
-2. **Environment Setup**
-   ```bash
-   cp env.example .env.local
-   ```
-   
-   Edit `.env.local` with your API keys:
-   ```env
-   OPENAI_API_KEY=your_openai_api_key_here
-   WEBSITE_URL=https://maisondeculture.com
-   NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
-   NEXT_PUBLIC_WEBSITE_URL=https://maisondeculture.com
-   ```
+Real-time Chat – Fast and dynamic conversations with AI typing indicators
 
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
+Context Awareness – Retains conversation history for coherent dialogue
 
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+🛠️ Technology Stack
+Frontend: Next.js 14, React 18, TypeScript
 
-## 🎨 Brand Identity
+Styling: Tailwind CSS with custom Maison de Culture theme
 
-Le Guide embodies Maison de Culture's sophisticated brand identity:
+Animations: Framer Motion for fluid transitions
 
-### Color Palette
-- **Maison Gold** (#D4AF37) - Elegance and premium quality
-- **Maison Navy** (#1e3a8a) - Trust and professionalism  
-- **Maison Cream** (#fefdfb) - Sophistication and clarity
-- **Maison Charcoal** (#374151) - Modern and authoritative
+Internationalization: React i18next with auto language detection
 
-### Typography
-- **Headings**: Playfair Display (serif) - Elegant and refined
-- **Body Text**: Inter (sans-serif) - Clean and readable
+AI Integration: OpenAI GPT models for intelligent dialogue
 
-## 💼 Business Context
+Icons: Lucide React for modern iconography
 
-### Target Markets
-- **US → Europe**: American SMBs expanding to France, Romania, Moldova
-- **Europe → US**: European businesses entering the US market (Arizona focus)
+Date Handling: date-fns for timestamps and formatting
 
-### Services Integration
-- **Language Training**: $400 per client (8-week programs)
-- **Cultural Workshops**: $25 per participant
-- **Market Entry Consulting**: $800 per client
-- **LLC Formation**: Assistance for European businesses in Arizona
+🏁 Quick Start
+Prerequisites
+Node.js 18+
 
-### Industries Served
-- Technology and Software
-- Healthcare and Medical
-- Professional Services
-- Manufacturing
-- Financial Services
+npm or yarn
 
-## 🔧 Development
+OpenAI API Key
 
-### Project Structure
-```
-le-guide-chatbot/
-├── app/                 # Next.js 14 app router
-│   ├── api/            # API routes
-│   ├── globals.css     # Global styles
-│   ├── layout.tsx      # Root layout
-│   └── page.tsx        # Home page
-├── components/         # React components
-│   ├── ChatInterface.tsx
-│   ├── MessageBubble.tsx
-│   ├── QuickActions.tsx
-│   └── LanguageSelector.tsx
-├── lib/               # Utilities and configurations
-│   ├── chatbot.ts     # Core AI logic
-│   └── i18n.ts        # Internationalization
-├── types/             # TypeScript definitions
-└── public/            # Static assets
-```
-
-### Available Scripts
-```bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run start    # Start production server
-npm run lint     # Run ESLint
-npm run type-check # TypeScript validation
-```
-
-### Code Quality
-- **TypeScript** for type safety
-- **ESLint** for code standards
-- **Tailwind CSS** for consistent styling
-- **Responsive Design** principles
-
-## 🌐 Internationalization
-
-Le Guide supports three languages with automatic detection:
-
-### Language Files
-- **English** (en): Default language, US business focus
-- **French** (fr): French market expertise
-- **Romanian** (ro): Romanian and Moldovan market knowledge
-
-### Features
-- Automatic language detection based on browser settings
-- Persistent language selection in localStorage
-- Voice input in the selected language
-- Culturally appropriate responses and examples
-
-## 🔒 Security & Privacy
-
-- **API Key Protection**: Environment variables for sensitive data
-- **Input Validation**: Proper request validation and sanitization
-- **Rate Limiting**: Built-in protection against abuse
-- **Privacy-First**: No conversation data stored permanently
-- **HTTPS Only**: Secure communication protocols
-
-## 📱 Mobile Optimization
-
-- **Responsive Design**: Works perfectly on all screen sizes
-- **Touch-Friendly**: Optimized for mobile interactions
-- **Fast Loading**: Optimized for mobile networks
-- **Progressive Enhancement**: Works without JavaScript enabled
-
-## 🤖 AI Capabilities
-
-### Expertise Areas
-1. **Regulatory Compliance**
-   - Business registration requirements
-   - Tax obligations and structures
-   - Employment law compliance
-   - Industry-specific regulations
-
-2. **Cultural Intelligence**
-   - Business communication styles
-   - Meeting protocols and etiquette
-   - Relationship building strategies
-   - Time management cultural differences
-
-3. **Market Entry Strategy**
-   - Market research and analysis
-   - Competitive landscape insights
-   - Localization requirements
-   - Partnership opportunities
-
-4. **Language Training**
-   - Business terminology
-   - Industry-specific vocabulary
-   - Professional communication
-   - Cultural context in language use
-
-## 📊 Analytics & Monitoring
-
-- **Performance Tracking**: Response times and user engagement
-- **Language Usage**: Popular languages and features
-- **Query Analysis**: Common business questions and topics
-- **Error Monitoring**: API failures and user experience issues
-
-## 🚀 Deployment
-
-### Production Deployment
-1. Build the application: `npm run build`
-2. Deploy to your preferred platform (Vercel, Netlify, etc.)
-3. Configure environment variables in production
-4. Set up domain and SSL certificates
-
-### Recommended Platforms
-- **Vercel** - Optimized for Next.js applications
-- **Netlify** - Easy static site deployment
-- **AWS Amplify** - Full-stack cloud deployment
-- **DigitalOcean** - Cost-effective VPS hosting
-
-## 📞 Support & Contact
-
-For questions about Le Guide or Maison de Culture services:
-
-- **Website**: [maisondeculture.com](https://maisondeculture.com)
-- **Email**: contact@maisondeculture.com
-- **Business Inquiries**: For consulting services and partnerships
-
-## 📄 License
-
-This project is proprietary software owned by Maison de Culture. All rights reserved.
-
----
-
-**Maison de Culture** - *Sophisticated Solutions for Global Success*
-
-🌟 Empowering businesses to thrive across cultures and borders 🌟 
-
-## Environment Setup
-
-1. Copy the example environment file:
-```bash
+Installation
+bash
+Copy
+Edit
+git clone <repository-url>
+cd le-guide-chatbot
+npm install
+Environment Setup
+bash
+Copy
+Edit
 cp env.example .env.local
-```
+Edit .env.local with your keys:
 
-2. Fill in your environment variables in `.env.local`:
-```env
+env
+Copy
+Edit
 # OpenAI API Configuration
 OPENAI_API_KEY=your_openai_api_key_here
 NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
 
-# Website Configuration
+# Website Integration
 NEXT_PUBLIC_WEBSITE_URL=https://maisondeculture.com
 
-# Search API Configuration
+# Web Search (optional)
 GOOGLE_SEARCH_API_KEY=your_google_search_api_key_here
 WEBSITE_SCRAPER_API_KEY=your_scraper_api_key_here
 
-# Rate Limiting Configuration
+# Rate Limiting
 UPSTASH_REDIS_REST_URL=your_redis_url_here
 UPSTASH_REDIS_REST_TOKEN=your_redis_token_here
-```
+Run the Development Server
+bash
+Copy
+Edit
+npm run dev
+Access at: http://localhost:3000
 
-⚠️ **Important Security Notes:**
-- Never commit your `.env.local` file to version control
-- Keep your API keys secure and rotate them regularly
-- Use different API keys for development and production
-- Monitor your API usage to prevent unexpected charges 
+🎨 Brand Identity
+Le Guide aligns with Maison de Culture’s brand principles of elegance, trust, and professionalism.
+
+Color Palette
+Maison Gold #D4AF37 – Premium and elegant
+
+Maison Navy #1e3a8a – Trusted and confident
+
+Maison Cream #fefdfb – Sophisticated clarity
+
+Maison Charcoal #374151 – Modern and authoritative
+
+Typography
+Headings: Playfair Display – Elegant serif
+
+Body Text: Inter – Clean and modern sans-serif
+
+💼 Business Context
+Target Markets
+US → Europe: SMBs entering France, Romania, Moldova
+
+Europe → US: EU companies expanding into the US, with an Arizona focus
+
+Services Integrated
+Language Training – $400 per client, 8-week program
+
+Cultural Workshops – $25 per participant
+
+Market Entry Consulting – $800 per client
+
+LLC Formation Support – For European companies expanding to the US
+
+Industries Served
+Technology
+
+Healthcare
+
+Legal and Professional Services
+
+Financial Services
+
+Manufacturing
+
+🔧 Development
+Project Structure
+vbnet
+Copy
+Edit
+le-guide-chatbot/
+├── app/                 
+│   ├── api/              
+│   ├── globals.css       
+│   ├── layout.tsx        
+│   └── page.tsx          
+├── components/           
+│   ├── ChatInterface.tsx
+│   ├── MessageBubble.tsx
+│   ├── QuickActions.tsx
+│   └── LanguageSelector.tsx
+├── lib/                 
+│   ├── chatbot.ts       
+│   └── i18n.ts          
+├── types/               
+└── public/              
+Available Scripts
+bash
+Copy
+Edit
+npm run dev        # Start development server
+npm run build      # Build for production
+npm run start      # Start production server
+npm run lint       # Run ESLint
+npm run type-check # TypeScript validation
+🌐 Internationalization
+Le Guide provides full language detection and culturally appropriate communication.
+
+Language Support
+English (en) – US business standards
+
+French (fr) – French legal and cultural guidance
+
+Romanian (ro) – Romania and Moldova-focused support
+
+Features
+Automatic browser-based language detection
+
+Persistent language choice using localStorage
+
+Voice input matched to selected language
+
+Cultural sensitivity in examples and advice
+
+🔒 Security & Privacy
+Environment-based API Key Storage – No credentials exposed in frontend code
+
+Input Validation – Prevents malformed requests
+
+Rate Limiting – Prevents abuse and protects services
+
+No Persistent Storage – Conversations are not saved
+
+HTTPS Enforcement – All data exchanges are encrypted
+
+📱 Mobile Optimization
+Fully responsive layout
+
+Touch-friendly interactions
+
+Optimized for low-bandwidth environments
+
+Graceful fallback for older browsers and JS-disabled scenarios
+
+🤖 AI Capabilities
+Regulatory Compliance
+Business registration procedures
+
+Tax regulations
+
+Employment and labor laws
+
+Industry-specific rules
+
+Cultural Intelligence
+Business etiquette by country
+
+Meeting behavior and time management
+
+Negotiation expectations and relationship building
+
+Market Entry Strategy
+Competitor and industry research
+
+Localization planning
+
+Partner and vendor insights
+
+Language Training
+Business terminology
+
+Sector-specific vocabulary
+
+Formal communication and tone
+
+Language in cultural context
+
+📊 Analytics & Monitoring
+Response Time Monitoring
+
+Most Frequently Used Languages
+
+Common Query Analysis
+
+AI Error and Timeout Reporting
+
+🚀 Deployment
+Production Build
+bash
+Copy
+Edit
+npm run build
+Deploy with your preferred platform:
+
+Recommended Platforms
+Vercel – Best fit for Next.js
+
+Netlify – Easy CI/CD pipeline
+
+AWS Amplify – For full-stack hosting
+
+DigitalOcean – Low-cost custom VPS
+
+📞 Support & Contact
+For help or consulting inquiries, contact Maison de Culture:
+
+Website: maisondeculture.com
+
+Email: contact@maisondeculture.com
+
+Business Inquiries: Request services or collaboration proposals
+
+📄 License
+This software is proprietary and owned by Maison de Culture.
+All rights reserved. For internal or commercial use only.
+
+Maison de Culture
+Empowering Businesses with Sophisticated Solutions 
+
